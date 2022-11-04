@@ -36,7 +36,7 @@ class MainActivity3 : AppCompatActivity() {
         val nextPageBtn = findViewById<View>(R.id.button13) as Button
         nextPageBtn.setOnClickListener {
             val intent = Intent()
-            intent.setClass(this@MainActivity3, MainActivity7::class.java)
+            intent.setClass(this@MainActivity3, NEW::class.java)
             startActivity(intent)
         }
         val nextPageBtn0 = findViewById<View>(R.id.button) as Button
